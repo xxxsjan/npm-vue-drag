@@ -1,24 +1,9 @@
 # xxx-drag
 
-## Project setup
-```
-npm install
-```
+基于 vue-cli 开发的 npm 包
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+使用
 
-### Compiles and minifies for production
-```
-npm run build
-```
+import xxxDrag from "xxx-drag"
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.use(xxxDrag)
