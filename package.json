@@ -1,16 +1,18 @@
 {
   "name": "xxx-drag",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "main": "dist/xxxDrag.common.js",
+  "author": "xxxsjan",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name xxxDrag src/main.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
