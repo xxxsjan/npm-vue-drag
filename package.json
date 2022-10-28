@@ -1,13 +1,17 @@
 {
   "name": "@xxxsjan/vue-drag",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/VueDrag.common.js",
   "module": "dist/VueDrag.umd.min.js",
   "author": "xxxsjan",
+  "repository": {
+    "url":"https://github.com/xxxsjan/vue-drag.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VueDrag src/main.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "npm publish --access public"
   },
   "peerDependencies": {
     "core-js": "^3.8.3",

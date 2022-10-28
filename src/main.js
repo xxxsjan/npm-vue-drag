@@ -6,7 +6,7 @@
 // }).$mount("#app");
 export default {
   install(Vue) {
-    Vue.directive("xxxdrag", {
+    Vue.directive("drag", {
       bind: function (el) {
         var oDiv = el;
         oDiv.onmousedown = function (ev) {

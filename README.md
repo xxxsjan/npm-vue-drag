@@ -2,8 +2,8 @@
 
 基于 vue-cli 开发的 npm 包
 
-使用
+拖拽指令
 
-import xxxDrag from "xxx-drag"
+import VueDrag from "@xxxsjan/vue-drag"
 
-Vue.use(xxxDrag)
+Vue.use(VueDrag)
