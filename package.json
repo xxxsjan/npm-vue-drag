@@ -1,11 +1,12 @@
 {
-  "name": "xxx-drag",
+  "name": "@xxxsjan/vue-drag",
   "version": "0.1.1",
-  "main": "dist/xxxDrag.common.js",
+  "main": "dist/VueDrag.common.js",
+  "module": "dist/VueDrag.umd.min.js",
   "author": "xxxsjan",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name xxxDrag src/main.js",
+    "build": "vue-cli-service build --target lib --name VueDrag src/main.js",
     "lint": "vue-cli-service lint"
   },
   "peerDependencies": {
